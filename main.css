@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+li {
+  color: white;
+  font-size: 20px;
+  list-style: none;
+  cursor: pointer;
+  height: 50px;
+  width: 500px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.content {
+  width: 500px;
+  color: black;
+  top: 0px;
+  left: 0px;
+  background: white;
+  overflow: hidden;
+  height: 0px;
+  transition: height 1s;
+  border: 1px solid rgb(0, 171, 187);
+}
+
+.expand {
+  height: 165px;
+}
+
+.content p {
+  padding: 20px;
+}
+#tabs li {
+  padding: 10px 20px;
+  background: rgb(0, 192, 209);
+  list-style: none;
+  border: 1px solid rgb(0, 171, 187);
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#tabs li:hover {
+  background: rgb(0, 213, 233);
+}
+
+#tab {
+  width: 500px;
+  border: 1px solid rgb(0, 171, 187);
+}
